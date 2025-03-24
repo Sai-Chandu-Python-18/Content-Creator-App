@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Creator App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Content Creator</h1>
+        <div class="editor">
+            <input type="text" id="title-input" placeholder="Enter title here..." />
+            <textarea id="content-input" placeholder="Write your content here..."></textarea>
+            <button id="preview-btn" class="btn">Preview Content</button>
+        </div>
+        <div id="preview-container" class="preview-container">
+            <h2 id="preview-title"></h2>
+            <p id="preview-content"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
